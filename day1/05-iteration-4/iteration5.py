@@ -8,11 +8,13 @@ def list_iteration(my_list):
         
         if type(i)==list:
             for l in i:
-                print(l)
+                # print(l)
                 if type(l)==list:
                     for n in l:
                         print(n)
+                else:
+                    print(l)
         else:
             print(i)
 
-list_iteration(my_list2)
+list_iteration(my_list)
