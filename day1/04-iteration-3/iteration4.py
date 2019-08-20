@@ -12,9 +12,10 @@ def calculate_median(a_list):
     if list_len % 2 == 0 :
         first_index = (list_len - 1)//2
         second_index = (list_len + 1)//2
+        
         return ( sorted_list[first_index] + sorted_list[second_index] ) / 2.0
     else:
-        index = (list_len-1)//2
+        index = (list_len)//2
         return sorted_list[index]
 
 def List_average(a_list):
@@ -29,13 +30,16 @@ def num_occu(a_list):
         if a_list.count(i)> most_occ:
             most_occ = a_list.count(i)
             num = i
+            print(num)
+
+            input()
     return num
 
 
-my_list1 = [2, 34]
 
-print(calculate_median(my_list1))
+
+print(calculate_median(my_list))
 
 # print(List_average(my_list))
 
-# print(num_occu(my_list))
+print(num_occu(my_list))
