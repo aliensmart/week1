@@ -71,7 +71,13 @@ print(list(enum2))
 
 # count() list.count(element) return the number of occurences of an element in a list
 
-max(iterable, *iterables)
+# max(iterable, *iterables)
+
+# min() returns the item with the lowest value, or the item with the lowest value in an iterable
+
+# pow(x, y) return value depends upon the type of arguments passed.
+
+# repr(obj)returns a printable representational string of the given objec
 
 
 
